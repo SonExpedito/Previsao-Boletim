@@ -1,0 +1,33 @@
+# Dependências do Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ficheiros compilados e ambientes virtuais Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+
+# Ficheiros de dados gerados (se não quiseres versionar os CSVs criados)
+dados/*.csv
+src/dados/*.csv
+
+# Gráficos gerados pelos modelos (opcional: comente com # se quiseres subir as imagens)
+graficos/*.png
+src/graficos/*.png
+
+# Documentos temporários do Word criados durante a edição (~$...)
+~$*.docx
+
+# Ficheiros do sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configurações de IDEs
+.vscode/
+.idea/
